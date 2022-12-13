@@ -1,0 +1,22 @@
+.header_container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+.logo_div{
+    width: max-content;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.nav_container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+/* .about_link:hover{
+
+} */

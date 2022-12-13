@@ -1,0 +1,19 @@
+.home_container{
+    width:100vw;
+    height: 90vh;
+    background-image: url("https://i.pinimg.com/originals/37/7b/6c/377b6cc6ee48b0420bf411114a77668a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.Caraousel_container{
+    width:70vw;
+    height: 70vh;
+    background-color: rgba(16, 63, 61, 0.7);
+}
