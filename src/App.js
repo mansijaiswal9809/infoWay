@@ -12,10 +12,12 @@ import Blog from './components/Blog/Blog';
 import Clients from './components/Client/Clients';
 import Home from './components/Home/Home';
 
+
 function App() {
   return (
     <div className="App">
     <Nav/>
+ 
     <Routes>
       <Route exact path='/' element={<Home/>}/>
       <Route exact path='/about' element={<About/>}/>
