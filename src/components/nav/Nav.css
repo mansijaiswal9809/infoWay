@@ -6,6 +6,10 @@
     padding: 20px;
     position: sticky;
     top: 0;
+    z-index: 99999;
+}
+.header_container a{
+    padding: 5px 10px;
 }
 .logo_div{
     width: max-content;
@@ -17,6 +21,25 @@
     gap: 20px;
     align-items: center;
 }
-/* .about_link:hover{
-
-} */
+.menu{
+    opacity: 0;
+    width: 100vw;
+    z-index: -2000;
+    height: 50vh;
+    transform: translateY(-50vh);
+    background-color: black;
+    transition: 0.5s;
+    /* transition-delay: 0.3s; */
+    transform-origin: top;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    padding: 60px;
+    box-sizing: border-box;
+    position:absolute;
+    top: 60px;
+    left: 0;
+}
+.active{
+    opacity: 1;
+    transform: translateY(0);
+}
