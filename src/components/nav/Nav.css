@@ -26,7 +26,7 @@
     width: 100vw;
     z-index: -2000;
     height: 50vh;
-    transform: translateY(-50vh);
+    transform: rotateX(270deg);
     background-color: black;
     transition: 0.5s;
     /* transition-delay: 0.3s; */
@@ -41,5 +41,13 @@
 }
 .active{
     opacity: 1;
-    transform: translateY(0);
+    transform: rotateX(0);
 }
+/* Linking you to success. */
+/* infoway solutions provides best teams for you and your business to grow  */
+/* Customer influences are critical. */
+/* your reviews are precious.. pleate Rate */
+/* Build your business and our business. */
+/* our business grows when you grow */
+/* Your ideas, your journey, we just Create path */
+/* we provide solution to all your great revolutionary ideas */
