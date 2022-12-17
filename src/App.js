@@ -29,6 +29,7 @@ function App() {
       <Route exact path='/blog ' element={<Blog/>}/>
       <Route exact path='/client' element={<Clients/>}/>
     </Routes>
+    {/* <Services/> */}
     </div>
   );
 }

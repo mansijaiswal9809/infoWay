@@ -20,7 +20,6 @@ const Nav = () => {
         </Link>
         <Link className="nav_container">
           <Link
-            className="about_link"
             to="/about"
             onMouseEnter={() => {
               setData(Data.about);
