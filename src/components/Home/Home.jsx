@@ -6,7 +6,7 @@ import Services from "../services/Services";
 import Clients from "../Client/Clients";
 
 
-const data=[{img:"applicationTransformation.jpg",caption:"Linking you to success"},{img:"bigdata.jpg",caption:"Customer influences are critical"},{img:"customApplication.jpg",caption:"Build your business and our business"},{img:"digitaltransforamtion.jpg",caption:"Your ideas, your journey, we just Create path"}]
+const data=[{img:"https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=600",caption:"Linking you to success"},{img:"https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg?auto=compress&cs=tinysrgb&w=600",caption:"Customer influences are critical"},{img:"https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=600",caption:"Build your business and our business"},{img:"https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=600",caption:"Your ideas, your journey, we just Create path"}]
 
 
 const Home = () => {
@@ -35,7 +35,7 @@ const Home = () => {
     centerMode: true,
     centerPadding: 0,
     autoplay:true,
-    autoplaySpeed:1000,
+    autoplaySpeed:1500,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
@@ -44,12 +44,12 @@ const Home = () => {
     <>
     <div className="Caraousel_container">
       <div className="displayContainer" style={{ height:"500px"}}>
-        <Slider style={{width:"100vw", display:"flex", justifyContent:"center"}} {...settings}>
+        <Slider className="slider"style={{width:"100vw", display:"flex", justifyContent:"center"}} {...settings}>
           {data.map((item, idx) => (
-            <div key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+            <section key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
               <h1 style={{position:"absolute", top:'40px', left:"30px", backgroundColor:"transparent"}}>{item.caption}</h1>
               <img src={item.img} alt='carousel' />
-            </div>
+            </section>
           ))}
         </Slider>
       </div>

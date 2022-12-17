@@ -29,12 +29,12 @@ const Clients = () => {
       <div
         style={{ width: "100vw", display: "flex", justifyContent: "center" }}
       >
-        <div style={{ width: "700px", height: "500px", overflow: "hidden" }}>
+        <div style={{ width: "900px", height: "500px", overflow: "hidden" }}>
           <img
             className={`${animation ? "Aactive" : ""}`}
             src={images[mainImage]}
             alt={mainImage}
-            width="700px"
+            width="900px"
             height="500px"
             style={{ transform: "scale(1.3)" }}
           />
@@ -49,7 +49,7 @@ const Clients = () => {
             gap: "20px",
             alignItems: "center",
             position: "absolute",
-            top: "300px",
+            top: "500px",
           }}
         >
           {images.map((item, i) => (
