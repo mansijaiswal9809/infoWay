@@ -10,3 +10,49 @@
   height: 800px;
   width: 1000px;
 }
+.top_container{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+label{
+  display: block;
+  margin: 6px;
+  font-size: large;
+  
+}
+.bottom_container{
+  margin: 36px;
+    display: flex;
+}
+input{
+  display: block;
+  width: 100%;
+  height: 38px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin: 6px;
+  margin-bottom: 12px;
+  padding: 6px;
+}
+textarea{
+  width: 100%;
+  display: block;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+select{
+  display: inline-block;
+  width: 100%;
+  height: 38px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+
+.left_cotaine{
+  /* Percent is relative to its parent. */
+  width: 50%;
+  height: 100%;
+}

@@ -2,16 +2,17 @@ import React, { useState } from "react";
 import "./client.css";
 
 const images = [
-  "http://www.infowaygroup.com/sites/default/files/clients/ebay.jpg",
-  "http://www.infowaygroup.com/sites/default/files/clients/goole.jpg",
-  "https://tse4.mm.bing.net/th?id=OIP.WzdKBeSaMugMpnbLJL7KWwHaE8&pid=Api&P=0",
-  "http://www.infowaygroup.com/sites/default/files/clients/kelly-logo.jpg",
-  "http://www.infowaygroup.com/sites/default/files/clients/lt-technology-servicelogo.jpg",
-  "http://www.infowaygroup.com/sites/default/files/clients/motorola-logo-1.jpg",
-  "http://www.infowaygroup.com/sites/default/files/clients/mphasis-logo.jpg",
-  "http://www.infowaygroup.com/sites/default/files/clients/paypal-logo-1.jpg",
-  "http://www.infowaygroup.com/sites/default/files/clients/pantoon-client.png",
-  "http://www.infowaygroup.com/sites/default/files/clients/philipis-client.png",
+  "https://th.bing.com/th/id/R.f2abaf19ce815c37decc54a027034cee?rik=ybxsD9qcbWdKew&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fr1lkhnS.jpg&ehk=Xf9dPmWDHBcCbP8WwQBrvF1ekNPKJ%2fowFDqCUJxoOWI%3d&risl=&pid=ImgRaw&r=0",
+  "https://images2.alphacoders.com/109/1098165.jpg",
+  "https://i.pinimg.com/originals/89/aa/6d/89aa6dd8bab7f60d10d6e41633b177f6.jpg",
+  "https://th.bing.com/th/id/OIP.4ZnNwjpJ-JGJmrWgch7q4AHaHa?pid=ImgDet&rs=1",
+  "https://i0.wp.com/www.techtaffy.com/wp-content/uploads/2013/04/Kelly_Services.jpg?fit=2048%2C1365&ssl=1",
+  "https://besthqwallpapers.com/Uploads/1-12-2021/186207/motorola-blue-logo-4k-blue-neon-lights-creative-blue-abstract-background.jpg",
+  "https://national-expertise.ru/wp-content/uploads/2019/08/Philips-Logo-Design-Vector-Free-Download.jpg",
+  "https://wallpaperaccess.com/full/85196.jpg",
+  "https://th.bing.com/th/id/OIP.xn5iPyWvOTGx9IwpzT6L5AHaBY?pid=ImgDet&rs=1",
+  "https://wildblue.top/img/operators/directv.png",
+  "https://tse3.mm.bing.net/th?id=OIP.4SCuiC0iPaB3fySTPPpeAAHaE7&pid=Api&P=0"
 ];
 const Clients = () => {
   const [mainImage, setMainImage] = useState(0);
