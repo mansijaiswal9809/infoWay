@@ -6,7 +6,7 @@ import Services from "../services/Services";
 import Clients from "../Client/Clients";
 
 
-const data=[{img:"https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=600",caption:"Linking you to success"},{img:"https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg?auto=compress&cs=tinysrgb&w=600",caption:"Customer influences are critical"},{img:"https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=600",caption:"Build your business and our business"},{img:"https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=600",caption:"Your ideas, your journey, we just Create path"}]
+const data=[{img:"https://wallpapercave.com/wp/wp7728120.jpg",caption:"Linking you to success"},{img:"https://barbaraiweins.com/wp-content/uploads/2021/08/Trends-Transforming-the-Information-Technology-Industry.jpg",caption:"Customer influences are critical"},{img:"http://getwallpapers.com/wallpaper/full/8/c/9/538867.jpg",caption:"Build your business and our business"},{img:"http://www.wns.com/Portals/0/Images/HeaderBanner/desktop/5019/257/Brandttiude_HD.jpg",caption:"Your ideas, your journey, we just Create path"}]
 
 
 const Home = () => {
