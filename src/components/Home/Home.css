@@ -12,7 +12,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: azure;
-    padding: 0 40px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -35,13 +34,13 @@
     display: none;
   }
   .slide {
-    transform: scale(0.3);
+    transform: scale(0.4) translateX(-100px);
     transition: transform 300ms;
     opacity: 0.5;
   }
   
   .activeSlide {
-    transform: scale(1.1);
+    transform: scale(1.2) translateX(-86px);
     opacity: 1;
   }
   .activeSlide h1{
@@ -53,6 +52,9 @@
     position: absolute;
     cursor: pointer;
     z-index: 10;
+  }
+  .slider{
+    justify-content: space-evenly !important;
   }
   /* .slick-track{
     width: 100vw !important;
@@ -69,12 +71,12 @@
   }
   
   .next {
-    left: 92vw;
+    left: 94vw;
     top: 50%;
   }
   
   .prev {
     /* margin-right: 0; */
-    left: 0%;
+    left: 6vw;
     top: 50%;
   }
