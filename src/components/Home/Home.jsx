@@ -44,10 +44,10 @@ const Home = () => {
     <>
     <div className="Caraousel_container">
       <div className="displayContainer" style={{ height:"500px"}}>
-        <Slider className="slider"style={{width:"100vw", display:"flex", justifyContent:"center"}} {...settings}>
+        <Slider className="slider"style={{width:"100vw", display:"flex",tranform:"translateX(-200px)"}} {...settings}>
           {data.map((item, idx) => (
             <section key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-              <h1 style={{position:"absolute", top:'40px', left:"30px", backgroundColor:"transparent"}}>{item.caption}</h1>
+              <h1 style={{position:"absolute", top:'80px', left:"30px", backgroundColor:"transparent"}}>{item.caption}</h1>
               <img src={item.img} alt='carousel' />
             </section>
           ))}
