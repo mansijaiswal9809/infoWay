@@ -4,6 +4,7 @@ import "./client.css";
 const images = [
   "https://i.pinimg.com/originals/89/aa/6d/89aa6dd8bab7f60d10d6e41633b177f6.jpg",
   "https://th.bing.com/th/id/R.f2abaf19ce815c37decc54a027034cee?rik=ybxsD9qcbWdKew&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fr1lkhnS.jpg&ehk=Xf9dPmWDHBcCbP8WwQBrvF1ekNPKJ%2fowFDqCUJxoOWI%3d&risl=&pid=ImgRaw&r=0",
+  "http://www.wallpapersin4k.org/wp-content/uploads/2017/04/Wallpaper-Walmart-4.jpg",
   "https://images2.alphacoders.com/109/1098165.jpg",
   "https://th.bing.com/th/id/OIP.4ZnNwjpJ-JGJmrWgch7q4AHaHa?pid=ImgDet&rs=1",
   "https://i0.wp.com/www.techtaffy.com/wp-content/uploads/2013/04/Kelly_Services.jpg?fit=2048%2C1365&ssl=1",

@@ -1,25 +1,35 @@
 .mapouter {
+  display: flex;
   position: relative;
   text-align: right;
+  /* margin-right: 50px; */
   height: 400px;
   width: 1000px;
 }
 .gmap_canvas {
+  display: flex;
   overflow: hidden;
   background: none ;
-  height: 800px;
-  width: 1000px;
+  height: 300px;
+  width:  1000px;
+  margin: 10px;
 }
 .top_container{
   display: flex;
-  /* align-items: center; */
   justify-content: center;
+  height: 400px;
+  width: 100%;
+  
 }
 label{
   display: block;
   margin: 6px;
   font-size: large;
+  color: white;
   
+}
+h2{
+  color: white;
 }
 .bottom_container{
   margin: 36px;
@@ -27,7 +37,7 @@ label{
 }
 input{
   display: block;
-  width: 100%;
+  width: 400px;
   height: 38px;
   border: 1px solid lightgray;
   border-radius: 4px;
@@ -36,7 +46,7 @@ input{
   padding: 6px;
 }
 textarea{
-  width: 100%;
+  width: 400px;
   display: block;
   border: 1px solid lightgray;
   border-radius: 4px;
@@ -44,15 +54,48 @@ textarea{
 
 select{
   display: inline-block;
-  width: 100%;
+  width: 400px;
   height: 38px;
   border: 1px solid lightgray;
   border-radius: 4px;
+  margin: 6px;
+  margin-bottom: 12px;
+  padding: 6px;
+}
+
+.container{
+  background-color: black;
+  overflow: hidden;
 }
 
 
-.left_cotaine{
-  /* Percent is relative to its parent. */
-  width: 50%;
-  height: 100%;
+.right_container{
+  width: fit-content;
+  align-items: center;
+}
+
+.left_container{
+  
+width: 480px;
+}
+.button_Submit{
+margin-top: 30px;
+height: 40px;
+width: 60px;
+font-family:initial;
+border-radius: 7px;
+}
+
+h1{
+  align-items:center;
+  justify-content: flex-start;
+  color: white;
+}
+p{
+  color: white;
+}
+
+.text_item{
+  align-items: center;
+  justify-content: center;
 }

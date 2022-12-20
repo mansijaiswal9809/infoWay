@@ -13,8 +13,8 @@
         Page:"services",
         name: "Staffing service",
         caption:"we help our customers with flexible supply of best technical and professional talents aligning with business requirements",
-        url:"staffing",
-        img:"https://media.gettyimages.com/id/1302147863/photo/confidence-and-success.jpg?s=2048x2048&w=gi&k=20&c=8fBtiOlPAd0uaU9uD1cOv3oPzRTU0MrD4_wncUwzoug=",
+        url: "/staffing",
+        img:"https://img.tukuppt.com/ad_preview/00/18/45/5c99e81dc4147.jpg!/fw/980",
         other: [
           { name: "Contract Staffing", url:"contract" },
           { name: "MSP Staffing", url:"msp" },
@@ -39,7 +39,7 @@
       {
         Page:"services",
         name: "UI/UI development",
-        img:"https://media.gettyimages.com/id/1307377196/vector/customer-experience-isometric-design.jpg?s=2048x2048&w=gi&k=20&c=qXiIS-ej8ic_x1lhwk4QJ2FtUrEEqTFrWayc0sQkoO4=",
+        img:"https://cdn.dribbble.com/users/415096/screenshots/14208596/media/935239f77e5f4ca3264d7643bb45619c.png",
         caption:"Our creative UI & UX development team works with you to transform your ideas into meaningful user stories.",
         url:"uiux",
       },
@@ -53,7 +53,7 @@
       {
         Page:"services",
         name: "mobile application development",
-        img:"https://media.gettyimages.com/id/692496318/photo/double-exposure-of-businessman-hand-using-smartphone-with-world-hologram-in-technology-and.jpg?s=612x612&w=0&k=20&c=xObzPdPN0okddqQ9sBiKfAQK_NgJRAqRmy3XFkUHuyA=",
+        img:"https://static.vecteezy.com/system/resources/previews/000/523/194/original/mobile-application-creation-web-development-testing-release-icon-and-user-interface-for-smartphone-3d-concept-vector.jpg",
         caption:"We help you to maximize your existing resources and we strive to complement your strengths with our knowledge and commitment.",
         url:"mobileapp",
         other: [
@@ -70,21 +70,21 @@
       {
         Page:"services",
         name: "Robotic Process Automation",
-        img:"https://media.gettyimages.com/id/1409088162/photo/female-technician-programs-a-robot-arm-with-a-digital-tablet.jpg?s=612x612&w=0&k=20&c=DfZda2YmzZ9K4cQkkIomji2KepLGNi6Xxa7-emzzzMM=",
+        img:"https://www.cybiant.com/wp-content/uploads/2020/06/3378.jpg",
         caption:"We provide RPA solutions together with a unique continuous improvement methodology that simplifies routine and repetitive processes for clients",
         url:"robotic",
       },
       {
         Page:"services",
         name: "Big Data",
-        img:"https://media.gettyimages.com/id/973708488/photo/businessmen-studying-graphs-on-an-interactive-screen-in-business-meeting.jpg?s=612x612&w=0&k=20&c=0mV_baKMRRFrsv1irEyJ49fomcxKl47suum39GjKz2M=",
+        img:"https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1578710070/1578710068.jpg",
         caption:"Our end-to-end services, matched with industry-specific skills and processes, help to make your data simpler to access and understand",
         url:"bigdata",
       },
       {
         Page:"services",
         name: "Digital Transformation",
-        img:"https://media.gettyimages.com/id/1270220775/photo/entrepreneur-explaining-to-colleague-while-sitting-in-office.jpg?s=612x612&w=0&k=20&c=RbxPCKzPQkJs5rXDTaXtmVJyX2inhhYAAI1fKZlYNqg=",
+        img:"https://media.itpro.co.uk/image/upload/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1623055116/itpro/2021/06/Digital_Transformation_shutterstock_1814154806.jpg",
         caption:"We provide a road map and formalized transformation plan to make strategic upgrades to core systems and processes. ",
         url:"digital",
       },
