@@ -1,3 +1,5 @@
+ import Service from '../service/Service'
+ import About from '../about/About'
  import { Data } from "../../utils/Constants"
  export const reducer=(state, action)=>{
     if(action.type==="getPageData"){
@@ -13,5 +15,6 @@
         state.menu= Data[page].map((item)=>item.name)
         return state
     }
+   
     return state
  }

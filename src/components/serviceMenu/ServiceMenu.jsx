@@ -5,12 +5,12 @@ import Button from "react-bootstrap/Button";
 import { PageContext } from "../../context/PageContext";
 
 const ServiceMenu = () => {
-  const {state}= useContext(PageContext)
+  const {state, getPageComponent}= useContext(PageContext)
   // console.log(state)
   return (
     <div  className="d-grid gap-4" >
       {Data[state.page].map((item,i)=>(
-        <Button key={i} variant="dark" style={{borderRadius:"none"}}><Link style={{textDecoration:"none", color:"white"}} to={`/${state.page}/${item.url}`}>{item.name}</Link></Button>
+        <Button key={i} variant="dark" style={{borderRadius:"none"}} onClick={()=>getPageComponent(state.page,item.name)}><Link style={{textDecoration:"none", color:"white"}} to={`/${state.page}/${item.url}`}>{item.name}</Link></Button>
       ))}
     </div>
     
