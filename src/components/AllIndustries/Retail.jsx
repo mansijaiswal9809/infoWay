@@ -1,8 +1,9 @@
 import React from 'react'
+import "./AllIndustries.css"
 
 const Retail = () => {
   return (
-    <div>
+    <div className='AllIndustriesContainer'>
       Retail
     </div>
   )

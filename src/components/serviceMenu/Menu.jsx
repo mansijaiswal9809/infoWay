@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 // import Button from "react-bootstrap/Button";
 import { PageContext } from "../../context/PageContext";
 
-const ServiceMenu = () => {
+const Menu = () => {
   const {state, getPageComponent}= useContext(PageContext)
   // console.log(state)
   return (
@@ -19,4 +19,4 @@ const ServiceMenu = () => {
   );
 };
 
-export default ServiceMenu;
+export default Menu;

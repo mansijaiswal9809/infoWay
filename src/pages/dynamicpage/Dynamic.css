@@ -1,0 +1,18 @@
+
+.dynamicContainer{
+    display: flex; 
+    /* position: relative; */
+}
+
+  .serviceMenu{
+    height: 90vh;
+    background-color: black;
+    margin-top: 0;
+    width: 20vw;
+    position: sticky;
+    left: 0;
+    top: 0;
+    padding: 30px 0;
+    border-right: 2px solid grey;
+    overflow: hidden;
+  }

@@ -35,7 +35,7 @@ const images = [
   "https://wallpaperaccess.com/full/85196.jpg",
   "https://th.bing.com/th/id/OIP.xn5iPyWvOTGx9IwpzT6L5AHaBY?pid=ImgDet&rs=1",
   "https://wildblue.top/img/operators/directv.png",
-  "https://tse3.mm.bing.net/th?id=OIP.4SCuiC0iPaB3fySTPPpeAAHaE7&pid=Api&P=0"
+  "https://tse3.mm.bing.net/th?id=OIP.4SCuiC0iPaB3fySTPPpeAAHaE7&pid=Api&P=0",
 ];
 const Clients = () => {
   const [mainImage, setMainImage] = useState(0);
@@ -49,7 +49,7 @@ const Clients = () => {
         overflowX: "hidden",
       }}
     >
-      <h1 style={{ color: "white" ,padding:"40px"}}>Our Clients</h1>
+      <h1 style={{ color: "white", padding: "40px" }}>Our Clients</h1>
       <div
         style={{ width: "100vw", display: "flex", justifyContent: "center" }}
       >

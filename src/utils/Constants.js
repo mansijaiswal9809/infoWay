@@ -33,7 +33,7 @@ export const Data = {
       name: "Staffing service",
       caption:
         "we help our customers with flexible supply of best technical and professional talents aligning with business requirements",
-      url: "/staffing",
+      url: "staffing",
       img: "https://img.tukuppt.com/ad_preview/00/18/45/5c99e81dc4147.jpg!/fw/980",
       other: [
         { name: "Contract Staffing", url: "contract" },
@@ -81,7 +81,7 @@ export const Data = {
     {
       component:<MobileApp/>,
       Page: "services",
-      name: "mobile application development",
+      name: "Mobile application development",
       img: "https://static.vecteezy.com/system/resources/previews/000/523/194/original/mobile-application-creation-web-development-testing-release-icon-and-user-interface-for-smartphone-3d-concept-vector.jpg",
       caption:
         "We help you to maximize your existing resources and we strive to complement your strengths with our knowledge and commitment.",

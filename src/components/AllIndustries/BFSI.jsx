@@ -1,8 +1,9 @@
 import React from 'react'
+import "./AllIndustries.css"
 
 const BFSI = () => {
   return (
-    <div>
+    <div className='AllIndustriesContainer'>
       BFCE
     </div>
   )
