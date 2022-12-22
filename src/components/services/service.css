@@ -9,10 +9,9 @@
 }
 .serviceCarouselButton {
   position: absolute;
-  right: 30px;
   top: 55%;
   z-index: 999;
-  background-color: alice;
+  background-color: #2c53b6;
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -29,15 +28,23 @@
     gap: 50px
 }
 .serviceDataImageDiv{
+    transition: all 0.8s;
     width: 500px;
     height: 520px;
     overflow: hidden;
     position: relative;
 }
+.serviceDataImageDiv img:hover{
+    transition: all 0.8s;
+    transform: scale(1.1);
+}
 .ServiceCaptionDiv{
+    padding: 15px;
+    background-color: rgba(0,0,0,0.8);
     position: absolute;
     top: 40px;
-    left: 40px
+    left: 40px;
+    z-index: 99999;
 }
 .serviceReadmore{
     position: absolute;
@@ -47,4 +54,16 @@
     border: none;
     border-radius: none;
     background-color: black;
+}
+.serviceDataImageDiv:hover .serviceReadmore{
+    animation: button 0.5s ease-in infinite alternate;
+}
+
+@keyframes button {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.3);
+    }
 }

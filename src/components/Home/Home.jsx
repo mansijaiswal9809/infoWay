@@ -78,7 +78,7 @@ const Home = () => {
                     position: "absolute",
                     top: "80px",
                     left: "30px",
-                    backgroundColor: "transparent",
+                    backgroundColor: "rgba(0,0,0,0.5)",
                   }}
                 >
                   {item.caption}
