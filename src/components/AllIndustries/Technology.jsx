@@ -1,8 +1,9 @@
 import React from 'react'
+import "./AllIndustries.css"
 
 const Technology = () => {
   return (
-    <div>
+    <div className='AllIndustriesContainer'>
       technology
     </div>
   )

@@ -1,0 +1,50 @@
+.serviceContainer {
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  overflow-x: hidden;
+  position: relative;
+}
+.serviceCarouselButton {
+  position: absolute;
+  right: 30px;
+  top: 55%;
+  z-index: 999;
+  background-color: alice;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: none;
+}
+.serviceSliderDiv {
+  width: 100vw;
+  min-width: 100vw;
+  transition: all 1s;
+}
+.serviceSlider{
+    width: 4700px;
+    display: flex;
+    gap: 50px
+}
+.serviceDataImageDiv{
+    width: 500px;
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+}
+.ServiceCaptionDiv{
+    position: absolute;
+    top: 40px;
+    left: 40px
+}
+.serviceReadmore{
+    position: absolute;
+    right: 40px;
+    top: 350px;
+    padding: 20px;
+    border: none;
+    border-radius: none;
+    background-color: black;
+}
