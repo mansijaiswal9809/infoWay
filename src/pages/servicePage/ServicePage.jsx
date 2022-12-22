@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import ServiceMenu from "../../components/serviceMenu/ServiceMenu";
 import { PageContext } from "../../context/PageContext";
 import Service from "../../components/service/Service";
@@ -8,11 +8,17 @@ import { Data } from "../../utils/Constants";
 const ServicePage = () => {
   const { state } = useContext(PageContext);
   const { page, pageComponent } = state;
-  let comp=Data[page].find((item)=>item.name===pageComponent)
-  if(comp){
-    comp=comp.component
-    console.log(comp)
-  }
+  const [comp, setComp]=useState(null)
+  const getcomp = () => {
+     let compo = Data[page].find((item) => item.name === pageComponent);
+    if (compo) {
+      setComp(compo.component)
+    }
+  };
+  useEffect(() => {
+    console.log(':hii')
+    getcomp();
+  }, [state]);
   return (
     <div>
       <div style={{ display: "flex", position: "reletive" }}>
@@ -33,7 +39,13 @@ const ServicePage = () => {
         >
           <ServiceMenu />
         </div>
-        {page==="services" && pageComponent===""?<Service/>:(page==="about" && pageComponent===""?<About/>:comp)}
+        {page === "services" && pageComponent === "" ? (
+          <Service />
+        ) : page === "about" && pageComponent === "" ? (
+          <About />
+        ) : (
+          comp
+        )}
       </div>
     </div>
   );

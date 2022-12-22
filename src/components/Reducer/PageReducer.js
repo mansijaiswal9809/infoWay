@@ -3,17 +3,13 @@
  import { Data } from "../../utils/Constants"
  export const reducer=(state, action)=>{
     if(action.type==="getPageData"){
-        state.page= action.payload;
-        state.pageComponent="";
-        state.menu= Data[action.payload].map((item)=>item.name)
-        return state
+        const menu= Data[action.payload].map((item)=>item.name)
+        return {...state,page:action.payload,pageComponent:"",menu }
     }
     if(action.type==="getPageComponentData"){
         const {page, val}= action.payload
-        state.page=page;
-        state.pageComponent=val;
-        state.menu= Data[page].map((item)=>item.name)
-        return state
+        const menu= Data[page].map((item)=>item.name)
+        return {...state,page, pageComponent:val, menu}
     }
    
     return state
