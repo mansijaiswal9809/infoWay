@@ -1,9 +1,9 @@
 import React from "react";
 import { useReducer } from "react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { createContext } from "react";
 import { reducer } from "../components/Reducer/PageReducer";
-import { Data } from "../utils/Constants";
+// import { Data } from "../utils/Constants";
 
 const initialState = {
   menu: [],
