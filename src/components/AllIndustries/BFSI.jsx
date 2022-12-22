@@ -1,11 +1,11 @@
 import React from 'react'
 
-const About = () => {
+const BFSI = () => {
   return (
     <div>
-      about
+      BFCE
     </div>
   )
 }
 
-export default About
+export default BFSI
