@@ -21,18 +21,20 @@ const Services = () => {
         className="serviceCarouselButton"
         style={{
           display: `${count === 0 ? "none" : "inline-block"}`,
+          left: "30px",
         }}
       >
-        <FaArrowLeft size={25} color="#0634aa" />
+        <FaArrowLeft size={25} />
       </button>
       <button
         className="serviceCarouselButton"
         onClick={next}
         style={{
           display: `${count === 6 ? "none" : "inline-block"}`,
+          right: "30px",
         }}
       >
-        <FaArrowRight size={25} color="#0634aa" />
+        <FaArrowRight size={25} />
       </button>
       <h1>
         <Link to="/services" onClick={() => getPage("services")}>
@@ -59,7 +61,7 @@ const Services = () => {
               </div>
               <img src={elem.img} alt={elem.name} width="100%" height="480px" />
               <button className="serviceReadmore">
-                <Link to={`/services/${elem.url}`}>Read More...</Link>
+                <Link to={`/services/${elem.url}`}>Read More</Link>
               </button>
             </div>
           ))}
