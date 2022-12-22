@@ -1,19 +1,22 @@
 .mapouter {
   display: flex;
   position: relative;
-  text-align: right;
-  /* margin-right: 50px; */
+  text-align:left;
+  justify-content: center;
+  margin-right: 50px;
   height: 400px;
-  width: 1000px;
+  width: 900px;
+  margin: 40px;
+  border-width: 4px;
 }
-.gmap_canvas {
+/* .gmap_canvas {
   display: flex;
   overflow: hidden;
   background: none ;
   height: 300px;
   width:  1000px;
-  margin: 10px;
-}
+  margin: 10px; */
+/* } */
 .top_container{
   display: flex;
   justify-content: center;
@@ -87,15 +90,14 @@ border-radius: 7px;
 }
 
 h1{
-  align-items:center;
-  justify-content: flex-start;
+  display: flex;
   color: white;
+  align-items: center;
+  justify-content: center;
 }
 p{
+  display: flex;
   color: white;
-}
-
-.text_item{
-  align-items: center;
+  align-items: center !important;
   justify-content: center;
 }
