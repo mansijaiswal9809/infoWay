@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 *{
   color: white;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.1git;
 }
 body {
   margin: 0;
