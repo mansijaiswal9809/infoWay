@@ -1,0 +1,9 @@
+.foot {
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #f40505;
+    color: white;
+    box-sizing: border-box;
+}

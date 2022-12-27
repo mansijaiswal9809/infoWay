@@ -1,18 +1,19 @@
 import React from 'react'
+import './footer.css'
 
 const Footer = () => {
   return (
-    <div>
-    <ul style={{color:"white"}}>
+    <div className='foot'>
+    <ul>
         Disclaimer
       </ul>
-    <ul style={{color:"white"}}>
+    <ul>
         Privacy
       </ul>
-    <ul style={{color:"white"}}>
+    <ul>
         Sitemap
       </ul>
-    <ul style={{color:"white"}}>
+    <ul>
         Contact Us
       </ul>
     </div>

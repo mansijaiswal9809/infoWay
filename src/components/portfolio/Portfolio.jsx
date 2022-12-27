@@ -1,9 +1,10 @@
 import React from 'react'
+import "./portfolio.css"
 
 const Portfolio = () => {
   return (
-    <div>
-      
+    <div className='port'>
+      <h1>Web Application</h1><hr />
     </div>
   )
 }

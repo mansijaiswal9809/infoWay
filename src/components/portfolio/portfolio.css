@@ -1,0 +1,8 @@
+.port{
+
+    min-height: 150vh;
+    background-color: #000000;
+    color: white;
+    box-sizing: border-box;
+    padding: 50px;
+}

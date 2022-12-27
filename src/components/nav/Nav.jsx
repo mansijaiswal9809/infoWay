@@ -47,6 +47,7 @@ const Nav = () => {
           Industries
         </div>
         <Link to="/portfolio">Portfolio</Link>
+        
         <Link to="/careers">Careers</Link>
         <Link to="/blog">Blog</Link>
         <Link to="client">Clients</Link>

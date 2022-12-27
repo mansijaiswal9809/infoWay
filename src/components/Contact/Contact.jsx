@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Contcact.css'
 const Contact = () => {
   return (
@@ -12,8 +13,8 @@ const Contact = () => {
               <p>Address:46520 Fremont Blvd,Suite 614 Fremont CA – 94538.Phone:+631-923-8350e-mail: info@infowaygroup.com</p>
             </div>
             <div className="gmap_canvas">
-              <iframe src="https://maps.google.com/maps?q=46520%20Fremont%20Blvd,%20Suite%20614%20Fremont%20CA%20%E2%80%93%2094538.&amp;t=k&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_1" frameborder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
-              <a href="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: 'none' }}></a>
+              <iframe title='usa' src="https://maps.google.com/maps?q=46520%20Fremont%20Blvd,%20Suite%20614%20Fremont%20CA%20%E2%80%93%2094538.&amp;t=k&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_1" frameBorder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
+              <Link to="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: 'none' }}></Link>
             </div>
           </div>
           <div className="mapouter">
@@ -23,8 +24,8 @@ const Contact = () => {
               <h4>E-mail: LA@infowaygroup.com</h4>
             </div>
             <div className="gmap_canvas">
-              <iframe src="https://maps.google.com/maps?q=18764-18766%20Pioneer%20Blvd%20,%20Artesia,%20CA%2090701,%20USA&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_2" frameborder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
-              <a href="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: "none" }}></a>
+              <iframe title='losAngeles' src="https://maps.google.com/maps?q=18764-18766%20Pioneer%20Blvd%20,%20Artesia,%20CA%2090701,%20USA&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_2" frameBorder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
+              <Link href="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: "none" }}></Link>
             </div>
           </div>
           <div className="mapouter">
@@ -33,8 +34,8 @@ const Contact = () => {
               <p>Address:40,First Floor,Rajiv Gandhi Street,Senthamarai Nagar,Muthialpet ,Puducherry - 605003.Phone: +91-8056655291e-mail: puducherry@infowaygroup.com</p>
             </div>
             <div className="gmap_canvas">
-              <iframe src="https://maps.google.com/maps?q=8/17%20,%20Second%20Floor,%20Tambaram-Velacherry%20Main%20Road,%20Vijayanagaram,Medavakkam,%20Chennai%20-%20600100.&amp;t=k&amp;z=9&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_3" frameborder="0" scrolling="no" style={{ width: '400px', height: '300px' }}></iframe>
-              <a href="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: "none" }}>How to Change Screen Orientation in Windows 11</a>
+              <iframe title='puducherry' src="https://maps.google.com/maps?q=8/17%20,%20Second%20Floor,%20Tambaram-Velacherry%20Main%20Road,%20Vijayanagaram,Medavakkam,%20Chennai%20-%20600100.&amp;t=k&amp;z=9&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_3" frameBorder="0" scrolling="no" style={{ width: '400px', height: '300px' }}></iframe>
+              <Link href="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: "none" }}>How to Change Screen Orientation in Windows 11</Link>
             </div>
           </div>
           <div className="mapouter">
@@ -43,8 +44,8 @@ const Contact = () => {
               <p>Address: 8/17 , Second Floor,Tambaram-Velacherry Main Road,Vijayanagaram,Medavakkam,Chennai - 600100.Phone: +91-9500505590e-mail: chennai@infowaygroup.com</p>
             </div>
             <div className="gmap_canvas">
-              <iframe src="https://maps.google.com/maps?q=7030%20Woodbine%20Avenue%20,%20Suite%20500%20,%20Markham%20Ontario%20L3R%206G2%20,%20Canada&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_4" frameborder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
-              <a href="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: "none" }}>How to Change Screen Orientation in Windows 11</a>
+              <iframe title='chennai' src="https://maps.google.com/maps?q=7030%20Woodbine%20Avenue%20,%20Suite%20500%20,%20Markham%20Ontario%20L3R%206G2%20,%20Canada&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_4" frameBorder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
+              <Link href="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: "none" }}>How to Change Screen Orientation in Windows 11</Link>
             </div>
           </div>
           <div className="mapouter">
@@ -52,17 +53,17 @@ const Contact = () => {
               <h1>CANADA OFFICE</h1>
               <p>Address: 7030 Woodbine Avenue ,Suite 500 , Markham Ontario L3R 6G2 , Canada.e-mail: canada@infowaygroup.com</p></div>
             <div className="gmap_canvas">
-              <iframe src="https://maps.google.com/maps?q=160%20Robinson%20Road,%20Singapore%20Business%20Federation%20Centre,%20Singapore%20-%20068914%20&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_5" frameborder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
-              <a href="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: "none" }}>How to Change Screen Orientation in Windows 11</a>
+              <iframe title='canada' src="https://maps.google.com/maps?q=160%20Robinson%20Road,%20Singapore%20Business%20Federation%20Centre,%20Singapore%20-%20068914%20&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_5" frameBorder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
+              <Link href="https://technologg.com/how-to-change-screen-orientation-in-windows-11/" style={{ display: "none" }}>How to Change Screen Orientation in Windows 11</Link>
             </div>
           </div>
-          <div class="mapouter">
+          <div className="mapouter">
           <div className='text_item'>
               <h1>AKOLA OFFICE</h1>
               <p>Address:Info Way Solutions LLC vitthal Nagar Mothi umari infront of Gajanan Maharaj Temple Akola Email:amol4095@gmail.com</p></div>            
-            <div class="gmap_canvas">
-              <iframe src="https://maps.google.com/maps?q=Vitthal%20nagar,%20Mothi%20umari%20,%20Akola,&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_6" frameborder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
-              <a href="https://technologg.com/best-saas-instagram-accounts/" style={{ display: "none" }}>Best Saas Instagram Accounts</a>
+            <div className="gmap_canvas">
+              <iframe title='akola' src="https://maps.google.com/maps?q=Vitthal%20nagar,%20Mothi%20umari%20,%20Akola,&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas_6" frameBorder="0" scrolling="no" style={{ width: "400px", height: "300px" }}></iframe>
+              <Link href="https://technologg.com/best-saas-instagram-accounts/" style={{ display: "none" }}>Best Saas Instagram Accounts</Link>
             </div>
           </div>
         </div>
@@ -71,7 +72,7 @@ const Contact = () => {
 
         <div className="right_container">
           <h2>Contact Us</h2>
-          <form>
+          <form action=''>
             <label htmlFor="fname">First Name:</label>
             <input type="text" name='fname' placeholder='First Name' /><br />
 
@@ -88,6 +89,7 @@ const Contact = () => {
             <input type="number" name="phone" placeholder='Phone Number' /><br />
 
             <label htmlFor="City">Request for Services:</label>
+            <br />
             <select name="City">
               <option value="-1">-None-</option>
               <option value="0">Australia</option>
@@ -123,6 +125,7 @@ const Contact = () => {
             </select><br />
 
             <label htmlFor="Services">Select Services</label>
+            <br />
             <select name="Services">Select Services
               <option value="-1">-None-</option>
               <option value="0">Staffing Services </option>
@@ -140,9 +143,9 @@ const Contact = () => {
 
             <label htmlFor="Comment">Comment:</label>
             <textarea name="Comment" cols="30" rows="4" placeholder='Comment'></textarea>
-
+            <br />
+          <button className='btn btn-success' type="submit">Submit</button>
           </form>
-          <button className='button_Submit' type="submit">Submit</button>
         </div>
       </div>
     </div>
