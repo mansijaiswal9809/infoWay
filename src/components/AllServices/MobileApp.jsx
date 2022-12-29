@@ -3,7 +3,7 @@ import "./AllServices.css"
 
 const MobileApp = () => {
   return (
-    <div className='allSevicesContainer'>
+    <div className="allSevicesContainer">
       <h1>Mobile Application Development</h1>
       <p>
         At Infoway, we offer full-cycle mobile application development services
