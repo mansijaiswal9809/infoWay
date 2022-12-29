@@ -75,10 +75,11 @@ const Home = () => {
               >
                 <h1
                   style={{
+                    padding:"20px",
                     position: "absolute",
                     top: "80px",
-                    left: "30px",
-                    backgroundColor: "rgba(0,0,0,0.5)",
+                    left: 0,
+                    backgroundColor: "rgba(0,0,0,0.9)",
                   }}
                 >
                   {item.caption}

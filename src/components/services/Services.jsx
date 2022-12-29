@@ -59,7 +59,7 @@ const Services = () => {
                 <h3>{elem.name}</h3>
                 {elem.caption}
               </div>
-              <img src={elem.img} alt={elem.name} width="100%" height="480px" />
+              <img src={elem.img} alt={elem.name} width="100%" height="520px" />
               <button className="serviceReadmore">
                 <Link to={`/services/${elem.url}`}>Read More</Link>
               </button>
